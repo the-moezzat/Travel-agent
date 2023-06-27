@@ -131,22 +131,22 @@
 }
 
 .card--1 {
-  background-image: url(../img/guide/sohaib-al-kharsa-ui4W50Ry87k-unsplash.jpg);
+  background-image: url(../img/guide/sohaib.jpg);
 }
 .card--2 {
-  background-image: url(../img/guide/james-timothy-Kh3aTWwMH1I-unsplash.jpg);
+  background-image: url(../img/guide/james.jpg);
 }
 .card--3 {
-  background-image: url(../img/guide/li-shanting-AGy0SxTzqr8-unsplash.jpg);
+  background-image: url(../img/guide/li-shanting.jpg);
 }
 .card--4 {
-  background-image: url(../img/guide/sohaib-al-kharsa-agQ0G6djwU4-unsplash.jpg);
+  background-image: url(../img/guide/soh.jpg);
 }
 .card--5 {
-  background-image: url(../img/guide/christina-wocintechchat-com-0Zx1bDv5BNY-unsplash.jpg);
+  background-image: url(../img/guide/christina.jpg);
 }
 .card--6 {
-  background-image: url(../img/guide/toa-heftiba-O3ymvT7Wf9U-unsplash.jpg);
+  background-image: url(../img/guide/toa.jpg);
 }
 
 .guide-card-price {
@@ -366,7 +366,7 @@
 }
 
 .testimonial::after {
-  content: "";
+  content: '';
   width: 2.4rem;
   height: 2.4rem;
   background-color: inherit;
@@ -418,7 +418,7 @@
 
 .pagination::after,
 .pagination::before {
-  content: "";
+  content: '';
   width: 1rem;
   height: 1rem;
   background-color: #6a97da;
