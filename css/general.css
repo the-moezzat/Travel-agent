@@ -1,0 +1,170 @@
+/*
+--- 01 TYPOGRAPHY
+- Font size(px):
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights:
+Default: 400;
+Medium: 500
+Semi-bold: 600
+Bold: 700
+
+- Line height:
+Default: 1
+Small: 1.05
+Paragraph default: 1.6
+
+-letter-spacing:
+-0.5px
+
+--- 02 COLORS
+- Primary: #76a8f2;
+- Tints:
+- Shades:
+- Accent colors: #FFA870, #FFE270
+- Gray:
+#212529
+#495057
+
+--- 05 SHADOWS
+
+--- 06 BORDER-RADIUS
+Default:
+
+--- 07 WHITE-SPACING
+
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  color: #495057;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.main-heading {
+  color: #fff;
+  font-size: 6.2rem;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+}
+
+.secondary-heading {
+  font-size: 5.2rem;
+  color: #212529;
+}
+
+.tertiary-heading {
+  font-size: 3.6rem;
+  color: #fff;
+  margin-bottom: 2.4rem;
+}
+
+.grid {
+  display: grid;
+  gap: 3.2rem;
+}
+
+.grid--3-col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--6-col {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.btn:link,
+.btn:visited {
+  padding: 1rem 2rem;
+  border-radius: 9px;
+  font-size: 1.6rem;
+  transition: all 0.3s;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.btn-fill:link,
+.btn-fill:visited {
+  padding: 1.4rem 2.8rem;
+  background-color: #91b9f5;
+  text-transform: uppercase;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(145, 185, 245, 0.5);
+}
+
+.btn-fill:hover,
+.btn-fill:active {
+  background-color: #76a8f2;
+}
+
+.btn-outline:link,
+.btn-outline:visited {
+  padding: 1.4rem 2rem;
+  border: 2px solid #dee2e6;
+  color: #495057;
+  font-weight: 500;
+}
+
+.btn-outline:hover,
+.btn-outline:visited {
+  background-color: #dee2e6;
+}
+
+.header-section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2.4rem;
+  margin-bottom: 1.8rem;
+}
+
+.dropdown {
+  flex: auto 0 0;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.2rem 1.8rem;
+  border: 2px solid #dee2e6;
+  border-radius: 11px;
+  cursor: pointer;
+}
+
+/* HELPER CLASSES */
+
+.margin-btm-sm {
+  margin-bottom: 1.6rem;
+}
+
+.margin-btm--md {
+  margin-bottom: 4.8rem;
+}
+
+.margin-btm--lg {
+  margin-bottom: 8rem;
+}
+
+.center-h {
+  text-align: center;
+}
